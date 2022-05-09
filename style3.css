@@ -167,7 +167,7 @@ main {
 }
 
 .receitas img {
-    width: ;
+    width: 300px;
     height: 230px;
     border-radius: 5px 5px 0px 0px ;
 }
@@ -181,7 +181,7 @@ main {
 }
 
 .imagem  {
-   
+    width: 300px;
     background-color: rgba(180, 93, 137, 0.219);
     border-radius: 5px 5px 5px 5px ;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
@@ -192,10 +192,11 @@ main {
 .imagem p {
     padding: 10px;
     color: rgb(151, 1, 94);
+    text-align: center;
 }
 
 .cronometro img {
-    width: 40px;
+    width: 50px;
     height: 40px;
     padding: 5px;
     
@@ -204,5 +205,5 @@ main {
 
 .cronometro {
     display: flex;
-    margin-left:2%;
+    margin-left:25%;
 }
