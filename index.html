@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9193324559.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>   
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)  " href="mobille.css"></head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href=""><h1>MGCakes</h1></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="">Início</a></li>
+                <li><a href="index2.html">Cadastrar</a></li>
+                <li><a href="index1.html">Entrar</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </header> 
+        <main>
+          <div class="content">
+            <div class="textbox">
+                <h2>MGCakes os melhores bolos do  <strong style="color: rgb(226, 88, 114);font-family: cursive;">Brasil</strong> </h2>
+                <p>Lorem, isicing elit. Tenetur molestiae laudantium obcaecati commodi expedita perferendis dicta libero fuga consequatur at? Assumenda sapiente, obcaecati qui rerum quae impedit necessitatibus dolor eaque nsequatur at? Assumenda sapiente, obcaecati qui rerum quae impedit necessitatibus dolor eaque?</p>
+                <a href="mais.html">Ver mais</a>
+            </div>
+            <div class="imgbox">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="imagens/bolo444.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="imagens/bolo111.png" />
+                      </div> <div class="swiper-slide">
+                        <img src="imagens/bolo222.png" />
+                      </div> <div class="swiper-slide">
+                        <img src="imagens/bolo333.png" />
+                      </div> <div class="swiper-slide">
+                        <img src="imagens/bolo444.png" />
+                      </div> <div class="swiper-slide">
+                        <img src="imagens/bolo222.png" />
+                      </div>
+          
+                    </div>
+            </div>
+                </div>
+                <ul class="sci">
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+        </main>
+      </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate:0,
+            stretch: 10,
+            depth:1800,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          loop: true,
+        });
+        
+        function toggleMenu() {
+          const menuToggle = document.querySelector('.toggle');
+          const navigation = document.querySelector('.navigation')
+          menuToggle.classList.toggle('active')
+          navigation.classList.toggle('active')
+
+        }
+
+      </script>
+</body>
+</html>
+

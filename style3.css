@@ -1,0 +1,208 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: rgba(180, 93, 137, 0.664) ;
+    width: 100%;
+    
+    
+    
+}
+
+main {
+    background-color: white;
+}
+body {
+    background-color: rgba(240, 146, 207, 0.089);
+}
+
+header {
+    position: fixed;
+}
+
+#check {
+    display: none;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.logo a {
+    color: white;
+}
+
+.logo a:hover {
+    background-color: transparent;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white ;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background-color: #350e28ec;
+    transition: all .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    background-color: rgba(228, 215, 228, 0.116);
+    margin: auto;
+}
+
+.slogan img {
+    width: 100%;
+    
+
+}
+
+.slogan {
+    margin: auto;
+}
+
+.opcoes {
+   
+    padding: 10px;
+    display: flex;
+    border: solid 1px rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+}
+
+.opcoes div {
+    margin-left: 8%;
+}
+
+.doces {
+    display: flex;
+}
+
+.opcoes a{
+    padding: 2px;
+    color: black;
+}
+
+.opcoes a:hover {
+    background-color: rgba(180, 93, 137, 0.863);
+    border-radius: 10%;
+    
+}
+
+.opcoes p{
+    margin: 11px;
+}
+
+.doces img {
+    width: 40px;
+}
+
+.opcoes img {
+    width: 40px;
+}
+
+.drinks  a {
+    display: flex;
+}
+
+.doces:hover {
+    background-color: azure;
+    padding: px;
+    cursor: pointer;
+}
+
+.titulo h1 {
+    font-family: cursive;
+    background-color: rgba(180, 93, 137, 0.863);
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    color: rgb(51, 11, 41);
+}
+
+.receitas {
+    padding: 5px;
+    display: flex;
+    
+
+}
+
+.receitas img {
+    width: ;
+    height: 230px;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.receitas a:hover {
+    background-color: transparent;
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+}
+
+.imagem  {
+   
+    background-color: rgba(180, 93, 137, 0.219);
+    border-radius: 5px 5px 5px 5px ;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+    margin: 5px;
+    transition: all ease .3s;
+}
+
+.imagem p {
+    padding: 10px;
+    color: rgb(151, 1, 94);
+}
+
+.cronometro img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    
+}
+
+
+.cronometro {
+    display: flex;
+    margin-left:2%;
+}
