@@ -393,7 +393,7 @@ header .navigation li a {
     }
     
     .swiper {
-        width:150px;
+        max-width: 190px;;
         padding-top: 0px;
         padding-bottom: 30px;
         margin-left: 0;
