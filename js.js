@@ -41,7 +41,7 @@ function entrar(){
   })
    
   if(usuario.value == userValid.user && senha.value == userValid.senha){
-    window.location.href = 'http://127.0.0.1:5500/index3.html'
+    window.location.href = 'http://127.0.0.1:5500/index3.html '
     
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom

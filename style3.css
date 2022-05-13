@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav {
-    background-color: rgba(180, 93, 137, 0.664) ;
+    background-color: #c55900;
     width: 100%;
     
     
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 a.active,a:hover {
-    background-color: #350e28ec;
+    background-color: #693306;
     transition: all .5s;
 }
 
@@ -110,7 +110,7 @@ main {
 }
 
 .opcoes div {
-    margin-left: 8%;
+    margin-left: 1.5%;
 }
 
 .doces {
@@ -118,18 +118,18 @@ main {
 }
 
 .opcoes a{
-    padding: 2px;
+    padding: 1px;
     color: black;
 }
 
 .opcoes a:hover {
-    background-color: rgba(180, 93, 137, 0.863);
+    background-color: #c55900;
     border-radius: 10%;
     
 }
 
 .opcoes p{
-    margin: 11px;
+    margin: 12px;
 }
 
 .doces img {
@@ -152,58 +152,30 @@ main {
 
 .titulo h1 {
     font-family: cursive;
-    background-color: rgba(180, 93, 137, 0.863);
+    background-color: #c55900;
     text-align: center;
     padding: 10px;
     font-weight: 400;
     color: rgb(51, 11, 41);
 }
 
-.receitas {
-    padding: 5px;
-    display: flex;
-    
 
-}
 
-.receitas img {
-    width: 300px;
-    height: 230px;
-    border-radius: 5px 5px 0px 0px ;
-}
-
-.receitas a:hover {
-    background-color: transparent;
-}
-
-.imagem:hover {
-    transform: scale(1.1);
-}
-
-.imagem  {
-    width: 300px;
-    background-color: rgba(180, 93, 137, 0.219);
-    border-radius: 5px 5px 5px 5px ;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
-    margin: 5px;
-    transition: all ease .3s;
-}
-
-.imagem p {
-    padding: 10px;
-    color: rgb(151, 1, 94);
+footer {
+    background-color: black;
+    color: rgb(133, 64, 0);
+    padding: 12px;
     text-align: center;
-}
-
-.cronometro img {
-    width: 50px;
-    height: 40px;
-    padding: 5px;
     
 }
 
-
-.cronometro {
-    display: flex;
-    margin-left:25%;
+footer a {
+    color: #c4bbb4;
+    transition: all ease .5s;
 }
+
+footer a:hover {
+    background-color: transparent;
+    color: #884611;
+}
+
