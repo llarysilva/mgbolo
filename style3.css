@@ -159,6 +159,49 @@ main {
     color: rgb(51, 11, 41);
 }
 
+.categorias-1 {
+    padding:10px;
+}
+
+.cate-opc img {
+    height: 340px;
+    width: 220px;
+    border-radius: 10px;
+    filter: brightness(40%); 
+       transition: all ease .6s;
+
+}
+
+.cate-opc img:hover {
+    filter: brightness(30%);
+
+}
+
+.cate-opc a:hover {
+    background-color: transparent;
+}
+
+.cate-opc {
+    margin: 25px;
+}
+
+.cate-opc p {
+    width: 220px;
+    font-weight: 600;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    font-size: 0.9em;
+    padding: 30px;
+    justify-content: center;
+
+    
+}
+
+.cate-flex {
+    display: flex;
+}
+
 
 
 footer {
