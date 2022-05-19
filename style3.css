@@ -156,7 +156,7 @@ main {
     text-align: center;
     padding: 10px;
     font-weight: 400;
-    color: rgb(51, 11, 41);
+    color: rgb(71, 26, 7);
 }
 
 .categorias-1 {
@@ -167,7 +167,7 @@ main {
     height: 340px;
     width: 220px;
     border-radius: 10px;
-    filter: brightness(40%); 
+    filter: brightness(70%); 
        transition: all ease .6s;
 
 }
